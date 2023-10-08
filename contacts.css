@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.image-one .container{
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 270px;
+}
+.contact {
+    border-style: solid ;
+    border-color: #939191;
+    border-width: 15px 15px;
+    border-radius: 3px;
+    background: white;
+}
+.contact .text_st{
+    text-align: center;
+    font-family: Impact	;
+    font-size: 20px;
+}
+p{
+    font-size: 14px;
+    font-family: "Arial Black";
+    padding-left: 20px;
+}
+.your-name ,.form-group-alpha ,.message, .send_btn{
+    padding-left: 30px;
+}
+.select_st p{
+    padding-left: 50px;
+}
+.your-name input{
+    width: 700px;
+    height: 60px;
+    font-size: 17px;
+    padding-left: 20px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #e0dddd;
+}
+.email-phone{
+    overflow:auto;
+    width: 800px;
+}
+.form-group-alpha  input {
+    height: 60px;
+    width: 45%;
+    font-size: 17px;
+    float: left;
+    margin-top: 35px;
+    padding-left: 20px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #e0dddd;
+}
+.form-group-omega input{
+    width: 42%;
+    display: inline-block;
+    height: 60px;
+    margin-left: 20px;
+    font-size: 17px;
+    padding-left: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #e0dddd;
+}
+.select_st select{
+    width: 700px;
+    height: 60px;
+    font-size: 17px;
+    margin-left: 30px;
+    padding-left: 20px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #e0dddd;
+}
+
+.message textarea{
+    width: 700px;
+    height: 200px;
+    font-size: 20px;
+    padding-left: 20px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #e0dddd;
+}
+
+.send_btn{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.send_btn .editContent{
+    color: white;
+    font-size: 20px;
+}
+.send_btn button{
+    width: 700px;
+    height: 60px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background: #2ead29;
+}
+

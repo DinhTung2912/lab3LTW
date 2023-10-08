@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        * {
+            box-sizing: inherit;
+        }
+
+        html {
+            font-size:70%;
+            line-height: 1.8rem;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .app{
+            width: 100%;
+            max-width: 1300px;
+            margin: auto;
+        }
+        .header{
+        }
+        .header_navbar{
+
+        }
+        .navbar__list{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            background-color: rgb(238, 237, 237);
+            border-bottom: 2px solid rgb(138, 4, 4);
+            border-left: 5px solid rgb(141, 2, 2);
+        }
+        .navbar__item{
+            font-size: 1.8rem;
+            line-height: 1.8rem;
+            padding: 12px 22px;
+            border-radius: 2px;
+        }
+        .navbar__item--list{
+            position: relative;
+        }
+        .navbar__item:hover{
+            background-color: brown;
+            color: #fff;
+            box-shadow: 0 1px 1px yellowgreen;
+        }
+        .navbar__item-list-item:hover{
+            background-color: rgb(209, 209, 208);
+        }
+        .navbar__item--list:hover .navbar__item-list{
+            color:red ;
+            display: block;
+        }
+        .navbar__item-list{
+            width: 170px;
+            max-height: 160px;
+            /* overflow: scroll; */
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top:38px;
+            left:0px;
+            display: none;
+            list-style: none;
+            padding-left: 0;
+            background-color: rgb(238, 237, 237);
+            box-shadow: 0 1px 2px #e0e0e0;
+
+        }
+        .navbar__item-list-item{
+
+            padding: 10px 16px;
+            border-bottom: 1px solid rgb(173, 172, 172);
+
+        }
+    </style>
+</head>
+
+<body>
+<div class="app">
+    <div class="header">
+        <nav class="header__navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item">HOME</li>
+                <li class="navbar__item navbar__item--list">
+                    PRODUCT
+                    <ul class="navbar__item-list">
+                        <li class="navbar__item-list-item">Tivi</li>
+                        <li class="navbar__item-list-item">Máy tính xách tay</li>
+                        <li class="navbar__item-list-item">Tủ lạnh</li>
+                        <li class="navbar__item-list-item">Điện Thoại</li>
+                        <li class="navbar__item-list-item">Điện Thoại</li>
+                        <li class="navbar__item-list-item">Điện Thoại</li>
+                        <li class="navbar__item-list-item">Điện Thoại</li>
+                    </ul>
+                </li>
+                <li class="navbar__item">ABOUT US</li>
+                <li class="navbar__item">CONTACT</li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+</body>
+
+</html>
